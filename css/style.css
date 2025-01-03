@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #2F303A; /* Основний колір */
-    --secondary-color: #757575; /* Додатковий колір */
-    --background-color: #F5F4FA; /* Колір фону */
-    --text-color: white; /* Основний колір тексту */
-    --accent-color: #2196F3; /* Акцентний колір */
+    --primary-color: #2F303A; 
+    --secondary-color: #757575; 
+    --background-color: #F5F4FA; 
+    --text-color: white; 
+    --accent-color: #2196F3; 
 }
 header{
     background-color: var(--background-color);
