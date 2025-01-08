@@ -1,3 +1,8 @@
+@font-face{
+    font-family: Roboto;
+    font-style: notmal;
+    src: url("../font/Roboto-Medium.ttf")
+}
 :root {
     --primary-color: #2F303A; 
     --secondary-color: #757575; 
@@ -81,3 +86,31 @@ footer{
 body{
     font-family: "Roboto", serif;
 }
+
+.navigation{
+    font-weight: 500;
+    line-height: 1.2px;
+}
+
+.email1{
+    font-weight: 500;
+    line-height: 1.2px;
+}
+
+.number1{
+    font-weight: 500;
+    line-height: 1.2px;
+}
+
+.section1 h1{
+    font-weight: 900px;
+}
+
+.section2 p{
+    line-height: 1.7px;
+}
+.section2 h3{
+    font-weight: 700px;
+    line-height: 1.2px;
+}
+
