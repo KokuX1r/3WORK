@@ -1,7 +1,32 @@
 @font-face{
-    font-family: Roboto;
-    font-style: notmal;
-    src: url("../font/Roboto-Medium.ttf")
+    font-family: "Roboto";
+    font-weight: 100;
+    src: url("../font/Roboto-Thin.ttf");
+}
+@font-face{
+    font-family: "Roboto";
+    font-weight: 300;
+    src: url("../font/Roboto-Light.ttf");
+}
+@font-face{
+    font-family: "Roboto";
+    font-weight: 400;
+    src: url("../font/Roboto-Regular.ttf");
+}
+@font-face{
+    font-family: "Roboto";
+    font-weight: 500;
+    src: url("../font/Roboto-Medium.ttf");
+}
+@font-face{
+    font-family: "Roboto";
+    font-weight: 700;
+    src: url("../font/Roboto-Bold.ttf");
+}
+@font-face{
+    font-family: "Roboto";
+    font-weight: 900;
+    src: url("../font/Roboto-Black.ttf");
 }
 :root {
     --primary-color: #2F303A; 
