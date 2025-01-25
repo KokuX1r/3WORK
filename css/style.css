@@ -166,6 +166,7 @@ body{
 }
 
 .portfolio-nav button{
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.6px;
 }
@@ -178,4 +179,47 @@ body{
 .choose p{
     font-weight: 400;
     line-height: 1.9px;
+}
+.maininfo-navigation-link{
+    color: #212121;
+}
+
+.maininfo-tel{
+    color: #757575;
+}
+
+.maininfo-mail{
+    color: #2196F3;
+}
+
+.advantages-list-p{
+    font-size: 14px;
+}
+
+.work-doing{
+    font-size: 38px;
+}
+
+.team-main{
+    font-size: 36px;
+}
+
+.team-practicants-h4{
+    font-size: 16px;
+}
+
+.team-practicants-p{
+    font-size: 16px;
+}
+
+.footer-address{
+    color: white;
+}
+
+.choose-h4{
+    font-size: 18px;
+}
+
+.choose-p{
+    font-size: 16px;
 }
