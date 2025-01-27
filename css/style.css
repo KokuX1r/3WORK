@@ -1,4 +1,4 @@
-@import 'normalize.css';
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
 @font-face{
     font-family: "Roboto";
     font-weight: 100;
@@ -82,6 +82,10 @@ footer{
 .a5portf{
     background-color: var(--background-color);
 }
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .fig0{
     border: solid;
 }
@@ -183,6 +187,15 @@ body{
 }
 .maininfo-navigation-link{
     color: #212121;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #2196F3;
 }
 
 .maininfo-tel{
@@ -190,11 +203,18 @@ body{
 }
 
 .maininfo-mail{
-    color: #2196F3;
+    color: #757575;
+}
+
+.advantages-list-h3{
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .advantages-list-p{
     font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 400;
 }
 
 .work-doing{
@@ -203,6 +223,7 @@ body{
 
 .team-main{
     font-size: 36px;
+    font-weight: 700;
 }
 
 .team-practicants-h4{
@@ -211,6 +232,7 @@ body{
 
 .team-practicants-p{
     font-size: 16px;
+    color: #757575;
 }
 
 .footer-address{
@@ -223,4 +245,28 @@ body{
 
 .choose-p{
     font-size: 16px;
+}
+
+.footer-mail:link{
+    color: #7d7e84;
+}
+
+.footer-mail:visited{
+    color: #7d7e84;
+}
+
+.footer-tel:link{
+    color: #7d7e84;
+}
+
+.footer-tel:visited{
+    color: #7d7e84;
+}
+
+.portfolio-button{
+    line-height: 1.6;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #F5F4FA;
+    border: none;
 }
