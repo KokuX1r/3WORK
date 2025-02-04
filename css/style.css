@@ -41,7 +41,7 @@
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
-    display: flexbox;
+    display: flex;
 
     outline: 2px dashed red;
 }
@@ -300,3 +300,30 @@ a:hover{
 .team-practicants-img{
     width: 270px;
 }
+
+.work-shows{
+    display: flex;
+    justify-content: center;
+}
+
+.team-practicants-text{
+    display: flex;
+    justify-content: center;
+}
+
+.advantages-list-h{
+    display: flex;
+    justify-content: space-between;
+}
+
+.maininfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio-button{
+    display: flex;
+    justify-content: center;
+}
+
