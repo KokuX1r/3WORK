@@ -41,7 +41,6 @@
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
-    display: flex;
 
     outline: 2px dashed red;
 }
@@ -301,29 +300,83 @@ a:hover{
     width: 270px;
 }
 
-.work-shows{
+
+
+.team-list{
     display: flex;
     justify-content: center;
 }
 
-.team-practicants-text{
-    display: flex;
-    justify-content: center;
-}
-
-.advantages-list-h{
+.advantages-list{
     display: flex;
     justify-content: space-between;
+    padding: 0;
 }
 
-.maininfo{
+.maininfo .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.portfolio-button{
+.mainportfolio .container{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
+.mainstore .container{
+    display: flex;
+    align-items: center;
+}
+
+.work-img{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team-practicants{
+    margin: 0;
+}
+
+.team-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team-practicants-img{
+    width: 270px;
+}
+
+.work-shows{
+    width: 370px;
+}
+
+.choose-img{
+    width: 370px;
+}
+
+.portfolio-nav a{
+    text-align: center;
+    background-color: #F5F4FA;
+    text-decoration: none;
+    color: black;
+    display: inline-block; 
+    border: 2px solid none; 
+    width: 130px; 
+    height: 38px;  
+    transition: 0.3s;
+
+}
+
+.portfolio-nav a:hover{
+    color: white;
+    background-color: #2196F3;
+    transform: scale(1.1);
+}
+
+.maininfo-navigation-link{
+    margin-right: 55px;
+}
