@@ -41,11 +41,9 @@
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
-
-    outline: 2px dashed red;
 }
 
-header{
+.team{
     background-color: var(--background-color);
 }
 .section1{
@@ -325,10 +323,7 @@ a:hover{
     flex-wrap: wrap;
 }
 
-.mainstore .container{
-    display: flex;
-    align-items: center;
-}
+
 
 .work-img{
     display: flex;
@@ -359,6 +354,7 @@ a:hover{
 }
 
 .portfolio-nav a{
+    margin: 10px;
     text-align: center;
     background-color: #F5F4FA;
     text-decoration: none;
@@ -368,7 +364,7 @@ a:hover{
     width: 130px; 
     height: 38px;  
     transition: 0.3s;
-
+    border-radius: 5px;
 }
 
 .portfolio-nav a:hover{
@@ -379,4 +375,65 @@ a:hover{
 
 .maininfo-navigation-link{
     margin-right: 55px;
+}
+
+header{
+    padding: 25px 0;
+}
+
+.team-main{
+    padding: 25px;
+}
+
+.team-practicants{
+    background-color: #FFFFFF;
+}
+.team-practicants-text{
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+footer{
+    padding: 30px;
+}
+
+.work-doing{
+    padding: 42px;
+}
+
+.mainstore-h1{
+    font-size: 44px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mainstore-button{
+    color: white;
+    width: 216px;
+    height: 50px;
+    background-color: #2196F3;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: block;
+}
+
+.mainstore-services{
+    padding: 200px 0;
+}
+
+.advantages-list-p{
+    color: #757575;
+    width: 270px;
+}
+
+.choose-figure{
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.choose-figure .choose-figcap{
+    padding-left: 15px;
 }
