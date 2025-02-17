@@ -208,7 +208,6 @@ a:hover{
 .maininfo-tel{
     color: #757575;
 }
-
 .maininfo-mail{
     color: #757575;
 }
@@ -354,17 +353,16 @@ a:hover{
 }
 
 .portfolio-nav a{
-    margin: 10px;
+    margin: 2px;
     text-align: center;
     background-color: #F5F4FA;
     text-decoration: none;
     color: black;
     display: inline-block; 
     border: 2px solid none; 
-    width: 130px; 
-    height: 38px;  
     transition: 0.3s;
     border-radius: 5px;
+    padding: 6px 22px;
 }
 
 .portfolio-nav a:hover{
@@ -391,11 +389,6 @@ header{
 .team-practicants-text{
     text-align: center;
     margin-left: 10px;
-}
-
-
-footer{
-    padding: 30px;
 }
 
 .work-doing{
@@ -430,10 +423,107 @@ footer{
 }
 
 .choose-figure{
-    margin: 0 auto;
+    margin: 0;
     margin-top: 30px;
 }
 
 .choose-figure .choose-figcap{
     padding-left: 15px;
+}
+
+
+.maininfo-navigation-link{
+    font-weight: 500;
+}
+
+.maininfo-mail{
+    margin: 15px 40px 5px 20px;
+}
+
+.mainstore-h1{
+    line-height: 1.4;
+}
+
+
+.mainstore-button{
+    border: 0;
+    padding: 15px 10px 35px 10px;
+    margin-top: 20px;
+}
+
+.advantages-list{
+    line-height: 1.7;
+    padding-top: 40px;
+}
+
+.team{
+    padding: 94px 0;
+}
+
+.team-main{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.footer-con{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-img,
+.footer-address,
+.footer-mail,
+.footer-tel{
+    margin: 7px;
+}
+
+.footer-img{
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.footer-tel{
+    margin-bottom: 65px;
+}
+
+.portfolio-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.portfolio-button{
+    padding-top: 8px;
+}
+.maininfo{
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.mainportfolio .container{
+    justify-content: space-between;
+}
+.choose-figure{
+    border: 1px solid grey;
+}
+
+.choose-figcap{
+    margin-top: 35px;
+    margin-left: 12px;
+    margin-bottom: 25px;
+}
+
+.choose-h4{
+    margin-bottom: 35px;
+}
+
+.choose{
+    margin-bottom: 90px;
+}
+
+.portf-head{
+    border-bottom: 1px solid grey;
 }
