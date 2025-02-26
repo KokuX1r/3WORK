@@ -522,8 +522,20 @@ header{
 
 .choose{
     margin-bottom: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 30px;
 }
 
 .portf-head{
     border-bottom: 1px solid grey;
+}
+
+.work-con{
+   margin-bottom: 80px;
+}
+
+.choose-figure{
+    flex-basis: calc((100% - 90px)/3);
 }
