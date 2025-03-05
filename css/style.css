@@ -540,26 +540,30 @@ header{
     flex-basis: calc((100% - 90px)/3);
 }
 
-.advantages-list-h .first::before{
-    content: '';
-    background-image: url("C:\Users\shava\OneDrive\Desktop\3Work\img\Group 1 (3).png");
+.advantages-list-h .first{
+    background-image: url();
     background-position: cover;
 }
 
-.advantages-list-h .second::before{
-    content: '';
-    background-image: url("C:\Users\shava\OneDrive\Desktop\3Work\img\Group 2 (3).png");
+.advantages-list-h .second{
+    background-image: url();
     background-position: cover;
 }
 
-.advantages-list-h .third::before{
-    content: '';
-    background-image: url("C:\Users\shava\OneDrive\Desktop\3Work\img\Group 3 (3).png");
+.advantages-list-h .third{
+    background-image: url();
     background-position: cover;
 }
 
-.advantages-list-h .fourth::before{
-    content: '';
-    background-image: url("C:\Users\shava\OneDrive\Desktop\3Work\img\Group 4 (1).png");
+.advantages-list-h .fourth{
+    background-image: url();
     background-position: cover;
+}
+
+.advantages-img::before {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 120px;
+    background-color: gray;
 }
