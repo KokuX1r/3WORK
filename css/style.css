@@ -353,7 +353,7 @@ a:hover{
 }
 
 .portfolio-nav a{
-    margin: 2px;
+    margin: 4px;
     text-align: center;
     background-color: #F5F4FA;
     text-decoration: none;
@@ -570,9 +570,6 @@ header{
 
 .team-practicants{
     border-radius: 10px;
-    box-shadow: 0px 3px 1px 0px rgba(181,180,180,1);
--webkit-box-shadow: 0px 3px 1px 0px rgba(181,180,180,1);
--moz-box-shadow: 0px 3px 1px 0px rgba(181,180,180,1);
 }
 
 .choose-figure:hover{
